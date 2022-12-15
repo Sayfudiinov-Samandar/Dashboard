@@ -1,0 +1,39 @@
+.statistics-item {
+    text-align: center;
+    padding: 24px 32px;
+    background-color: #fff;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        border-color: #3751FF;
+    }
+    &:hover *{
+        color: #3751FF;
+    }
+}
+
+.statistics-item *{
+    transition: color .3s ease-in-out;
+}
+
+.statistics-name {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #9FA2B4;
+}
+
+.statistics-count {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #252733;
+}
