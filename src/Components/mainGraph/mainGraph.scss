@@ -1,0 +1,84 @@
+@import url("../../Assets/fonts/mulish/fontsMulish.scss");
+
+.hero {
+  margin-left: 22%;
+  width: 76%;
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+}
+.hero__box{
+    display: flex;
+    justify-content: space-between;
+}
+.hero__left-box{
+padding: 30px;
+padding-bottom: 0px;
+}
+
+.hero__left-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.hero__title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+
+.hero__data-text {
+  margin: 0;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+}
+
+.hero__days-box{
+    display: flex;
+    gap: 56px;
+    margin-top: auto;
+}
+.hero__today{
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: -22px;
+        width: 16px;
+        height: 2px;
+        background-color: #3751FF;
+    }
+}
+.hero__yesterday{
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: -22px;
+        width: 16px;
+        height: 2px;
+        background-color: #DFE0EB;
+    }
+}
+.days{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #9fa2b4;
+}

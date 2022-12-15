@@ -1,0 +1,182 @@
+.ticket__section {
+  margin-top: 30px;
+  margin-left: 22%;
+}
+.ticket__box {
+  display: flex;
+  gap: 40px;
+}
+.ticket__left-box {
+  width: 697px;
+  padding-top: 30px;
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+}
+.ticket__title-box {
+  margin-left: 32px;
+}
+.ticket__tilte {
+  margin: 0;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+.ticket__text {
+  display: flex;
+  margin: 0;
+  margin-top: 8px;
+  align-items: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+}
+.ticket__link {
+  text-decoration: none;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #3751ff;
+}
+.ticket__text-top {
+  margin-right: 32px;
+  margin-bottom: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks__text-top{
+    margin-bottom: 85px;
+}
+.tasks__todo{
+    display: flex;
+    justify-content: space-between;
+}
+.tasks__todo-icon{
+    margin-right: 32px;
+}
+
+.tasks__text {
+  margin-left: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+.tasks__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tasks__list-box {
+}
+
+
+
+.tasks__mark {
+  border-radius: 9px;
+}
+
+.tasks__item {
+  width: 100%;
+  padding: 22px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #dfe0eb;
+}
+
+.checkbox {
+  margin-left: 32px;
+  display: block;
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  color: var(--bl-color);
+}
+
+/* Create a custom checkbox */
+mark {
+  position: absolute;
+  top: 19px;
+  left: 30px;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid #c5c7cd;
+  transform: scale(0.8);
+}
+
+.checkbox input:checked ~ mark {
+  background-color: #2196f3;
+}
+
+/* checked icon */
+mark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* mark */
+.checkbox input:checked ~ mark:after {
+  display: block;
+}
+
+/* checkmark/indicator */
+.checkbox mark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.tasks__checkbox__text {
+  margin: 0;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+.tasks__button {
+    margin-right: 32px;
+    padding: 5px 12px;
+    color: #fff;
+    border: none;
+  background: #fec400;
+  border-radius: 8px;
+}
+.default{
+    color: #9FA2B4;
+    background-color: #F0F1F7;
+}
+.succses{
+    background: #29CC97;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./taskBar.scss";
-import Task from '../tasks/Tasks';
+import { Task } from '../tasks/Tasks';
 import { Overview, Tickets, Ideas, Contacts, Agents, Articles, Settings, Subscription, Dashboard } from '../../Assets/images/icons/Icons';
 const TaskBar = () => {
     const tasks = [

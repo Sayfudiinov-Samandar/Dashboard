@@ -1,39 +1,97 @@
 .statistics-item {
-    text-align: center;
-    padding: 24px 32px;
-    background-color: #fff;
-    border: 1px solid #DFE0EB;
-    border-radius: 8px;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    &:hover{
-        border-color: #3751FF;
-    }
-    &:hover *{
-        color: #3751FF;
-    }
+  text-align: center;
+  padding: 24px 32px;
+  background-color: #fff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    border-color: #3751ff;
+  }
+  &:hover * {
+    color: #3751ff;
+  }
 }
 
-.statistics-item *{
-    transition: color .3s ease-in-out;
+.statistics-item * {
+  transition: color 0.3s ease-in-out;
 }
 
 .statistics-name {
-    margin-top: 0;
-    margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 19px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.4px;
-    color: #9FA2B4;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #9fa2b4;
 }
 
 .statistics-count {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #252733;
+  margin: 12px 0 15px 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #252733;
+}
+
+.hero__right-text {
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dfe0eb;
+}
+
+.graphStaticsTitle {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #9fa2b4;
+}
+.graphStaticsCount {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
+.ticket__left-text {
+  padding: 12px 0 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #DFE0EB;
+}
+.ticketStaticsTitle {
+  margin-left: 32px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+.ticketStaticsCount {
+  margin-right: 32px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #9fa2b4;
 }

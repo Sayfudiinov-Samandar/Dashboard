@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Task = ({ Svg, text }) => {
+export const Task = ({ Svg, text }) => {
     return (
         <li className="sidebar-item">
             <Svg />
@@ -9,4 +9,4 @@ const Task = ({ Svg, text }) => {
     )
 }
 
-export default Task
+ 
