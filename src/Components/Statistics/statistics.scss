@@ -1,0 +1,10 @@
+.statistics{
+    margin-left: 30%;
+}
+.statistics-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,258px);
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+}

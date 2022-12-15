@@ -1,0 +1,51 @@
+.site-header {
+    margin-left: 30%;
+    padding: 0 30px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.header-outer {
+    display: flex;
+    align-items: center;
+}
+
+.header-separator {
+    width: 2px;
+    height: 32px;
+    margin: 0 32px;
+    background-color: #DFE0EB;
+}
+
+.header-outer button {
+    border: 0;
+    background-color: transparent;
+}
+
+.header-search {
+    margin-right: 24px;
+}
+
+.user-name {
+    margin-right: 14px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
